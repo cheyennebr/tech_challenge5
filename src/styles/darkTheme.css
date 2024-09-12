@@ -1,0 +1,156 @@
+body {
+  background-color: #111111; /* Fundo geral da aplicação */
+  color: #e0e0e0; /* Cor do texto */
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.legend-text {
+  color: #b0b0b0; 
+  font-style: italic;
+  font-size: 0.875rem; 
+  margin-top: 8px;
+}
+
+button {
+  background-color: #6500e8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #5400b5;
+}
+
+h1 {
+  color: #6500e8;
+  font-family: 'Roboto', sans-serif;
+}
+
+button.MuiButton-containedPrimary {
+  background-color: #6500e8;
+  color: white;
+}
+
+button.MuiButton-containedPrimary:hover {
+  background-color: #4e00b5;
+}
+
+input, textarea {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #6500e8;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+input:focus, textarea:focus {
+  border-color: #6500e8;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #1e1e1e;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+/* Additional CSS for the app */
+
+header{margin-bottom:40px}
+
+.app-container {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.app-title {
+  color: #6500e8;
+}
+
+.list-item {
+  color: #f0f0f0;
+}
+
+input, textarea {
+  background-color: #2c2c2c; /* Lighter dark background */
+  color: #ffffff; /* White text for better readability */
+  border: 1px solid #6500e8; /* Purple border */
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #cccccc; /* Light gray placeholder text for visibility */
+}
+
+input:focus, textarea:focus {
+  border-color: #6500e8;
+  outline: none;
+}
+
+.MuiOutlinedInput-input {
+  padding: 16.5px 14px !important;
+  background-color: #202020 !important; 
+  color: #ffffff !important; 
+}
+
+.MuiInputLabel-root {
+  color: #ffffff !important;
+}
+
+.MuiOutlinedInput-root {
+  color: #000000; 
+}
+
+.MuiOutlinedInput-input {
+  color: #000000; 
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #6500e8; 
+}
+
+.MuiAppBar-root {
+  background-color: #000000; /* Fundo preto do menu de navegação */
+}
+
+.MuiButton-root {
+  color: #e0e0e0; /* Cor dos botões */
+}
+
+.MuiTextField-root {
+  background-color: #424242; /* Fundo dos campos de texto */
+  color: #e0e0e0; /* Cor do texto nos campos de texto */
+}
+
+.MuiPaper-root {
+  background-color: #424242; /* Fundo dos papéis (cartões, caixas, etc.) */
+}
+
+.nav-link {
+  color: #e0e0e0; /* Cor do texto dos links */
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}

@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Tech Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do Projeto
 
-## Available Scripts
+Este é um projeto desenvolvido para gerenciamento de membros e tarefas com integração ao Firebase Firestore. O aplicativo permite adicionar, editar, e remover tarefas, além de atribuí-las a membros específicos da equipe. As tarefas também incluem informações como prazo, prioridade e horas trabalhadas. A aplicação foi construída com **React** e utiliza **Material-UI** para a interface do usuário.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- Adicionar membros à equipe.
+- Adicionar, editar e excluir tarefas.
+- Atribuir membros às tarefas.
+- Marcar tarefas como concluídas ou pendentes.
+- Acompanhar o total de horas usadas por tarefa.
+- Interface responsiva utilizando Material-UI.
+- Integração com Firebase Firestore para persistência dos dados.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React** (v18)
+- **Material-UI** (MUI) para a interface do usuário.
+- **Firebase Firestore** como banco de dados NoSQL.
+- **Git** para controle de versão.
 
-### `npm test`
+## Requisitos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Antes de começar, certifique-se de ter o seguinte instalado:
 
-### `npm run build`
+- **Node.js** (v16 ou superior)
+- **npm** ou **yarn**
+- **Git**
+- Conta no **Firebase** com Firestore habilitado.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Passos para Instalação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. Clone o Repositório
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Primeiro, clone o repositório do GitHub para sua máquina local:
 
-### `npm run eject`
+# Instale as Dependências
+Após clonar o repositório, instale as depemdências
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Observações Finais
+Este projeto foi desenvolvido para ser simples e direto, facilitando a gestão de membros e tarefas. Certifique-se de manter suas credenciais do Firebase seguras e de configurar corretamente as permissões no Firestore para garantir o bom funcionamento do sistema.

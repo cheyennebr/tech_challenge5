@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { CssBaseline, ThemeProvider } from '@mui/material';
+import theme from './theme'; // Importe o tema
+import Header from './components/Header';
+import AddMemberPage from './components/AddMemberPage';
+import TaskManagementPage from './components/TaskManagementPage';
+import MembersPage from './components/MembersPage';
+import MemberProfilePage from './components/MemberProfilePage';
 
-function App() {
+// Import Firestore
+import { db } from './firebaseConfig'; // Import Firestore connection
+
+const App = () => {
+  // You can use `db` in this component or pass it to others if needed
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/adicionar-membro" element={<AddMemberPage />} />
+          <Route path="/gerenciar-tarefas" element={<TaskManagementPage />} />
+          <Route path="/members" element={<MembersPage />} />
+          <Route path="/member/:memberName" element={<MemberProfilePage />} />  {/* Profile Route */}
+        </Routes>
+      </Router>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
